@@ -1,0 +1,13 @@
+name: Email Trigger Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 25f2008106@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
